@@ -104,3 +104,24 @@ if found:
 
 else:
     print("Could not find invertible matrix")
+
+"""
+Output:
+rows: 0, 1, 6 det: 9
+Plain matrix:
+[[10 17  8]
+ [15 19 14]
+ [ 3  4 17]]
+Inverse plain matrix:
+[[21  9 24]
+ [11 22 18]
+ [ 9  7 13]]
+Cipher matrix:
+[[23 24  7]
+ [ 7 13 16]
+ [11 23  1]]
+Key matrix:
+[[ 4  4  9]
+ [18 19 12]
+ [25 14 15]]
+"""
