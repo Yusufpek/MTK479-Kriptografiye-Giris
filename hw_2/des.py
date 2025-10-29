@@ -90,7 +90,7 @@ def left_shift(bits, shifts):
 
 
 def des_key_generation(key):
-    """64 bit keys to 48 bit subkey"""
+    # 64 bits to 56 bits with PC1
     key = permutate(key, PC1)
     c0 = key[:28]
     d0 = key[28:]
